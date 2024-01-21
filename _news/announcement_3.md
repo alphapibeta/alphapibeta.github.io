@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2019-05-01
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Joined <a href="https://www.wavelabs.ai/">Wavelabs Technologies</a> as full time Machine learning Engineer

@@ -2,25 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Ronak_prof.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Buffalo, NY</p>
 
 news: true # includes a list of news items
 latest_posts: true # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently a graduate student at The State University of New York at Buffalo, deepening my expertise in Computer Science with an emphasis on Artificial Intelligence and Computer Vision. My academic pursuits at Buffalo have spanned the gamut from Operating Systems and Reinforcement Learning to Biometrics Image Analysis and Machine Learning. Adding richness to my academic narrative, I've had the privilege of working with Dr. Chen Wang at the Spatial AI & Robotics Lab.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+A passionate technologist, I’m proficient in a range of programming languages, including Python, C++, Rust, and SQL. I have also honed my skills with frameworks and tools such as PyTorch, Tensorflow, OpenCV, Kubernetes, Docker, and cloud platforms like AWS, GCP, and Azure. These skills were further sharpened during my tenure at Tensorgo Technologies in Hyderabad, where I led teams in developing scalable computer vision applications, optimizing cloud costs, and pioneering real-time audio-transcription and video inference pipelines. My professional journey in India also took me to Wavelabs.ai, where I championed object detection models and played a pivotal role in strategic decision-making via a forecasting and simulation engine.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My diverse experience, from crafting state-of-the-art solutions in AI to leading teams in deploying scalable solutions, positions me uniquely in the realm of technology. As I navigate the expansive world of computer science, I am eager to bring my robust combination of academic knowledge and hands-on experience to teams that prioritize innovation and impact in the AI landscape.
+
+I'm keen on embracing opportunities that align with my passion and expertise. If my profile resonates with your team's vision or you wish to discuss potential collaborations, please check out my resume or reach out via email. I'm always open to conversations that drive growth and innovation.
+

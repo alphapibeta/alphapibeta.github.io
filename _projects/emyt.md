@@ -20,7 +20,6 @@ TensorGo introduces emYt+, a low-code Platform as a Service (PaaS) designed to t
     </div>
 </div>
 
-
   <div class="row mt-4">
   <div class="col-lg-12">
     <h2 class="mt-4">Algorithms in emYt+</h2>

@@ -3,8 +3,8 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Ronak 
-middle_name: 
+first_name: Ronak
+middle_name:
 last_name: Haresh Chhatbar
 email: ronakchhatbar@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -18,7 +18,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://alphapibeta.github.io # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -275,7 +275,18 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["Computer-Vision", "NLP", "LLM", "Deep-learning","AIResearch","OpticalFlow","Robotics"] # these tags will be displayed on the front page of your blog
+display_tags: [
+    "Computer-Vision",
+    "NLP",
+    "LLM",
+    "Deep-learning",
+    "AIResearch",
+    "OpticalFlow",
+    "Robotics",
+    "Mathematics",
+    "Complex-Analysis",
+    "Riemann-Surfaces",
+  ] # these tags will be displayed on the front page of your blog
 display_categories: ["blockquotes"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
@@ -417,4 +428,3 @@ jsonresume:
   - languages
   - interests
   - references
-

@@ -24,4 +24,3 @@ A passionate technologist, I’m proficient in a range of programming languages,
 My diverse experience, from crafting state-of-the-art solutions in AI to leading teams in deploying scalable solutions, positions me uniquely in the realm of technology. As I navigate the expansive world of computer science, I am eager to bring my robust combination of academic knowledge and hands-on experience to teams that prioritize innovation and impact in the AI landscape.
 
 I'm keen on embracing opportunities that align with my passion and expertise. If my profile resonates with your team's vision or you wish to discuss potential collaborations, please check out my resume or reach out via email. I'm always open to conversations that drive growth and innovation.
-

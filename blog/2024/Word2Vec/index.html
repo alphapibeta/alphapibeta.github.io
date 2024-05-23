@@ -2,8 +2,8 @@
 </code></pre></div></div> <h3 id="projection-layer">Projection Layer</h3> <p>The encoded input is then mapped to a projection layer ( P ) with dimensionality ( N \times D ), using a shared projection matrix. This step is computationally efficient since only ( N ) inputs are active simultaneously.</p> <h3 id="hidden-layer">Hidden Layer</h3> <p>The architecture’s complexity increases between the projection and hidden layers due to the dense nature of projection layer values. For a typical choice of ( N = 10 ), the projection layer size (( P )) ranges from 500 to 2000, while the hidden layer (( H )) usually comprises 500 to 1000 units.</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">self</span><span class="p">.</span><span class="n">linear1</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Linear</span><span class="p">(</span><span class="n">context_size</span> <span class="o">*</span> <span class="n">embedding_dim</span><span class="p">,</span> <span class="n">hidden_dim</span><span class="p">)</span>
 </code></pre></div></div> <h3 id="output-layer">Output Layer</h3> <p>The hidden layer is essential for computing the probability distribution over the vocabulary words, resulting in an output layer with dimensionality ( V ). The computational complexity per training example can be expressed as:</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">self</span><span class="p">.</span><span class="n">linear2</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Linear</span><span class="p">(</span><span class="n">hidden_dim</span><span class="p">,</span> <span class="n">vocab_size</span><span class="p">)</span>
 </code></pre></div></div> \[Q = N \times D + N \times D \times H + H \times V\] <p>In this equation, ( H \times V ) is the dominant term. However, to mitigate this complexity, several practical solutions have been proposed. These include using hierarchical versions of the softmax or employing models that</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">vocab_size</span> <span class="o">=</span> <span class="mi">1000</span>
-<span class="n">embedding_dim</span> <span class="o">=</span> <span class="mi">100</span>   
-<span class="n">hidden_dim</span> <span class="o">=</span> <span class="mi">128</span>      
+<span class="n">embedding_dim</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="n">hidden_dim</span> <span class="o">=</span> <span class="mi">128</span>
 <span class="n">context_size</span> <span class="o">=</span> <span class="mi">3</span>
 
 <span class="c1"># NNLM Model Structure
@@ -13,10 +13,10 @@
   <span class="p">(</span><span class="n">linear2</span><span class="p">):</span> <span class="nc">Linear</span><span class="p">(</span><span class="n">in_features</span><span class="o">=</span><span class="mi">128</span><span class="p">,</span> <span class="n">out_features</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span> <span class="n">bias</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span> <span class="o">//</span> <span class="mi">129</span><span class="p">,</span><span class="mi">000</span> <span class="n">parameters</span>
 <span class="p">)</span>
 
-<span class="n">vocab_size</span> <span class="o">=</span> <span class="mi">1000000</span>  
-<span class="n">embedding_dim</span> <span class="o">=</span> <span class="mi">100</span>   
-<span class="n">hidden_dim</span> <span class="o">=</span> <span class="mi">128</span>      
-<span class="n">context_size</span> <span class="o">=</span> <span class="mi">3</span>      
+<span class="n">vocab_size</span> <span class="o">=</span> <span class="mi">1000000</span>
+<span class="n">embedding_dim</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="n">hidden_dim</span> <span class="o">=</span> <span class="mi">128</span>
+<span class="n">context_size</span> <span class="o">=</span> <span class="mi">3</span>
 
 <span class="c1"># NNLM Model Structure with Larger Vocabulary
 </span><span class="nc">NNLM</span><span class="p">(</span>

@@ -2,16 +2,19 @@
 layout: distill
 title: "GPU Optimization for Convolution Operations"
 description: A comprehensive analysis of convolution operations on GPUs, focusing on theoretical foundations, performance metrics, and optimization strategies.
+tags: Mathematics, Complex-Analysis, Riemann-Surfaces
 date: 2024-09-20
 featured: true
+thumbnail: /assets/img/compute_sm_throughput_vs_block_size.png
+images:
+  # compare: true
+  # slider: true
 
 authors:
-  - name: GPU Optimization Researcher
-    url: "https://example.com"
+  - name: Ronak Haresh Chhatbar
+    url: "https://alphapibeta.github.io/"
     affiliations:
-      name: Tech University
-
-bibliography: references.bib
+      name: Spatial AI and Robotics lab
 
 toc:
   - name: 1. Introduction
